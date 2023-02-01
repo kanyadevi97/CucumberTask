@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="46.021">
+<testcase classname="Verifying Adactin Hotel details" name="a" time="20.222">
+<system-out><![CDATA[Given User is on the adactin page...........................................passed
+When User should perform login "kanya1997" and "kanya123"...................passed
+And User should click login button..........................................passed
+And User should search a hotel "New York", "Hotel Sunshine", "Super Deluxe", "3 - Three", "05/01/2023", "07/01/2023", "2 - Two" and "0 - None".passed
+And User should select hotel................................................passed
+And User should book a hotel "kanya", "devi", "Chennai", "1234123412341234", "VISA", "December", "2022" and "0213".passed
+And User should print the order number......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Adactin Hotel details" name="b" time="25.662">
+<system-out><![CDATA[Given User is on the adactin page...........................................passed
+When User should perform login "kanya1997" and "kanya123"...................passed
+And User should click login button..........................................passed
+And User should search a hotel "New York", "Hotel Sunshine", "Super Deluxe", "3 - Three", "05/01/2023", "07/01/2023", "2 - Two" and "0 - None".passed
+And User should select hotel................................................passed
+And User should book a hotel "kaira", "tagore", "Chennai", "1234123412341234", "VISA", "December", "2022" and "0213".passed
+And User should print the order number......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
